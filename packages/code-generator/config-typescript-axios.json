@@ -1,0 +1,9 @@
+{
+    "npmName": "formant",
+    "apiPackage": "formant-api",
+    "modelPackage": "formant-models",
+    "useSingleRequestParameter": true,
+    "withSeparateModelsAndApi": true,
+    "npmVersion": "1.193.2",
+    "npmRepository": "https://github.com/burro-robotics/formant-openapi-client"
+  }

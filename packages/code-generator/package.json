@@ -1,0 +1,15 @@
+{
+  "name": "formant-openapi-client-code-generator",
+  "version": "1.193.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "openapi-generator-cli generate -i formant-openapi-spec.json -g typescript-axios -c config-typescript-axios.json -o ../api-client-typescript-axios/",
+    "clean-typescript-axios": "find ../api-client-typescript-axios/ -mindepth 1 ! -regex '^../api-client-typescript-axios/dist\\(/.*\\)?' -delete"
+  },
+  "author": "Paul Jones",
+  "license": "MIT",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.4"
+  }
+}
