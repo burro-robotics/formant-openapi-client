@@ -1,6 +1,6 @@
 {
   "name": "formant-openapi-client",
-  "version": "1.193.2",
+  "version": "1.193.3",
   "main": "packages/api-client-typescript-axios/dist/index.js",
   "workspaces": [
     "packages/code-generator",
